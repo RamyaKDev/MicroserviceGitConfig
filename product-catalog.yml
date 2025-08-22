@@ -1,0 +1,20 @@
+
+#datasource specific properties
+spring:
+  application:
+    name: product-catalog
+  profiles:
+    active: prod,dev
+  datasource:
+    username: root
+    password: abcd
+    url: jdbc:mysql://localhost:3306/ecommdb
+  ##jpa properties
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+message: In default profile
