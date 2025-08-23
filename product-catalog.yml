@@ -1,10 +1,6 @@
 
 #datasource specific properties
-spring:
-  application:
-    name: product-catalog
-  profiles:
-    active: prod,dev
+spring: 
   datasource:
     username: root
     password: abcd
